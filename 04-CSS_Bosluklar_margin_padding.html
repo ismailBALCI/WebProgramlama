@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+	/* ------- margin (Dış) ve padding (İç) Kenar Boşlukları ------ */
+    .Baslik img { margin: 5px; } /* 5px dış kenar boşluğu */ 
+    
+    .Baslik {
+    	/* Üst-Alt 20px Sol-Sağ 0px dış kenar boşluğu */
+    	margin: 20px 0px;
+    	/* Üst-Alt 10px Sol-Sağ 20px iç kenar boşluğu */
+        padding: 10px 20px;    
+    }
+    
+    /* Üst 10px Sol-Sağ 50px Alt 0px dış kenar boşluğu */
+    .Govde img { margin: 10px 50px 0px;}
+    
+    /* Üst 5px Sağ 10px Alt 15px Sol 10px iç kenar boşluğu */
+    .Govde { padding: 5px 10px 15px 10px;}
+    
+    /* AnaCerceve'yi sayfada ortalayalım */
+    .AnaCerceve { margin: 0px auto; width: 500px;}
+    
+	/* -------- background (Arkaplan) ve border (Kenarlık) -------- */
+	/* body arkaplan rengi #333333 yazı rengi beyaz */
+	body { background-color: #333333; color: white; }    
+    /* Baslik kısmı arkaplan rengi #ff9900 kenar yuvarlatma 10px */
+    .Baslik { background-color: #ff9900; border-radius: 10px; }    
+    /* Logo kenar yuvarlatma 150px */
+    .Logo { border-radius: 150px; }    
+    /* Resmin kenarlık rengi #ff9900 kenar yuvarlatma 10px */
+    .Resim { border: 3px solid #ff9900; border-radius: 10px; }
+    
+</style>
+</head>
+<body>
+
+<div class="AnaCerceve">
+
+<div class="Baslik">
+<header>
+<img src="http://cayelikizimamhatip.meb.k12.tr/meb_iys_dosyalar/53/04/767549/resimler/2021_02/k_25204700_OKUL_LOGOMUZ_1500x900.jpg" class="Logo" style="width: 100px;">
+<h3>ÇAYELİ KIZ ANADOLU İMAM HATİP LİSESİ</h3>
+</header>
+</div>
+
+<div class="Govde">
+<img class="Resim" src="http://cayelikizimamhatip.meb.k12.tr/meb_iys_dosyalar/53/04/767549/resimler/2020_09/04172003_CayeliKizImamHatip_01.jpg" style="width: 400px" >
+<p>	Misyonumuz, bilgili, kültürlü, başarılı, kendine güvenen, kendi değerlerimizle birlikte insanlığın ortak kazanımları olan Evrensel değerleri özümsemiş, yaratılanı ‘Yaratan’dan ötürü sevebilen, tabiatı tahrip değil imar eden, sorun değil çözüm üreten, farklılıkları doğal ve zenginlik kabul edip bunlardan yararlanmayı hedefleyen; insana, düşünceye, özgürlüğe, ahlaka ve kültürel mirasa saygı duyan kişilikli fertler yetiştirmektir.</p>
+</div>
+
+</div>
+
+</body>
+</html>

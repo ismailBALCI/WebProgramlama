@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1 {background-color: Aqua;}	/* Arka plan rengi turkuaz */
+h2 {background-color: #00FF00;  /* Arka plan rengi yeşil */}
+p {background-color: rgb(0,0,255);   /* Arka plan rengi mavi */}
+
+div {
+  background-image: url("bgdesert.jpg"); /* Arkaplan resmi */
+  
+  /* Arkaplan resmi tekrar etsinmi */
+  /*background-repeat: repeat-x;
+  background-repeat: repeat-y;*/
+  background-repeat: no-repeat;
+  
+  background-position: left bottom; /* Resim konumu */
+  
+  background-attachment: fixed; /* Resimin sabitlenmesi */
+}
+	/* Tüm özellekleri tek bir satırda ayarlayabiliriz. */
+body{background: #ff00ff url("bgdesert.jpg") no-repeat right top;}
+
+</style>
+</head>
+<body>
+
+    <div style="height: 1000px">
+	  <h1> CSS ile Arkaplan Biçimlendirme</h1>
+      <h2> Arkaplan Rengi </h2>
+      <p> Paragraf metni </p>
+    </div>
+
+</body>
+</html>
